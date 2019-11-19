@@ -1,3 +1,11 @@
 <zk>
-	Hello world
+	<div width="700px" style="margin: 200px auto;" apply="zk.demo.LoadingbarComposer">
+		<label>Start a loading bar and try these buttons:</label>
+		<separator/>
+		<button id="start" label="start" />
+		<button id="update30" label="update to 30%" />
+		<button id="update60" label="update to 60%" />
+		<button id="indeterminate" label="toggle indeterminate" />
+		<button id="finish" label="finish" />
+	</div>
 </zk>
